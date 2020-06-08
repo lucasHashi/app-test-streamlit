@@ -3,8 +3,7 @@ import pandas as pd
 import numpy as np
 import os
 
-
-def app():
+def main():
     st.title('Uber pickups in NYC')
 
     DATE_COLUMN = 'date/time'
@@ -52,5 +51,4 @@ def app():
     st.subheader('Map of all pickups at {}:00'.format(hour_to_filter))
     st.map(filtered_data)
 
-if __name__ == "__main__":
-    app()
+main()
