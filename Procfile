@@ -1,1 +1,1 @@
-web: app_data_explorer.py
+worker: python app_data_explorer.py
