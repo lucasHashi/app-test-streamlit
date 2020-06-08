@@ -1,1 +1,1 @@
-web: python app_data_explorer.py
+web: sh setup.sh && streamlit run app_data_explorer.py
